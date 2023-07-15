@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fundcollect"
+version = "0.1.0"
+description = "Collect data of mutual funds in Thailand"
+authors = ["Chatdanai Lumdee"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
